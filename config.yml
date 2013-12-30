@@ -1,0 +1,21 @@
+api: 
+  consumer:
+    key:       xxxxxxxxxxxxxxxxxxxxxxxxxxx
+    secret:    xxxxxxxxxxxxxxxxxxxxxxxxxxx
+  access:
+    token_key: xxxxxxxxxxxxxxxxxxxxxxxxxxx
+    secret:    xxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+path:
+  pic_save:     /path/to/save/
+  tmp_mid_file: /tmp/mid
+
+interval:
+  download:     10
+  twitter_api: 120
+  global:      120
+
+limit:
+  download:      5
+  twitter_api:  10
+  global:       10
