@@ -1,7 +1,6 @@
 #! /usr/bin/env ruby -Ku
 
 require 'bundler'
-Bundler.require
 require 'twitter'
 require 'json'
 require 'open-uri'
@@ -9,7 +8,7 @@ require 'pp'
 require 'yaml'
 
 # 設定ファイルの読み込み
-config = YAML.load_file("config.yml")
+config = YAML.load_file(File::dirname(__FILE__) + "/config.yml")
 
 PICT_SAVE_PATH =    config["path"]["pic_save"]
 TMP_MID_FILE_PATH = config["path"]["tmp_mid_file"]
